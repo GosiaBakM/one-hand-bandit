@@ -27,7 +27,7 @@ h1 {
 .game .color {
     width: 15vw;
     height: 35vh;
-    background-color: gray;
+    /* background-color: gray; */
     padding: 10px;
 }
 
@@ -67,6 +67,10 @@ section.panel {
     margin-left: 15vh;
 }
 
+section.panel .wallet {
+    font-weight: 700;
+}
+
 section.panel span {
     width: 700;
 }
@@ -76,5 +80,5 @@ section.score {
 }
 
 .score span {
-    width: 700;
+    font-weight: 700;
 }
